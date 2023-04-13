@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Apr 13 10:56:55 2023
+# Process ID: 15724
+# Current directory: C:/Users/gaote/Desktop/systolic_globalmode
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20208 C:\Users\gaote\Desktop\systolic_globalmode\systolic_globalmode.xpr
+# Log file: C:/Users/gaote/Desktop/systolic_globalmode/vivado.log
+# Journal file: C:/Users/gaote/Desktop/systolic_globalmode\vivado.jou
+# Running On: DESKTOP-LP4029M, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 16959 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/gaote/Desktop/systolic_globalmode/systolic_globalmode.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
